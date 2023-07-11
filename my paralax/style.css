@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.paralax,
+.lists {
+  width: 100%;
+  height: 100vh;
+}
+
+.some {
+  width: 98.4vw;
+  height: 98.4vh;
+  border: solid 0.3vw black;
+  background: #7a7a7a;
+}
+
+.paralax {
+  overflow: hidden;
+  background: url(https://abrakadabra.fun/uploads/posts/2022-01/1642650000_1-abrakadabra-fun-p-yaponskie-oboi-na-rabochii-stol-1.jpg);
+}
+
+.lists {
+  position: absolute;
+  transform: translate3d(0px, 50px, 0px);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  position: relative;
+  display: block;
+  left: 0px;
+  top: 0px;
+  background: url("./lists.png");
+}
+
+.vmist {
+  width: 40vw;
+  padding: 6vw;
+  transform: translate3d(0px, -400px, 0px);
+  position: absolute;
+}
