@@ -1,11 +1,14 @@
+const body = document.querySelector('body')
 const lists = document.querySelector('.lists')
 const content = document.querySelector('.paralax_content')
 const big_title = document.querySelector('.big_title')
 const gr_wrapper = document.querySelector('.gr_wrapper')
 
+console.log(document.querySelector('body').offsetWidth);
+
 content.style = `
   width: ${lists.offsetWidht - (content.offsetHeight*4/100)*2}px;
-  transform: translate3d(0px, -${(content.offsetHeight/2)+(lists.offsetHeight/1.5)}px, 0px);
+  transform: translate3d(0px, -${(content.offsetHeight/2)+(body.offsetHeight/1.5)}px, 0px);
   height: ${lists.offsetHeight}px;
 `
 
