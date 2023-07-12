@@ -116,3 +116,9 @@ nav a {
 .menu__item--4 {
   background: #f53c76;
 }
+
+@media (max-width: 780px) {
+  .paralax {
+    background: #000;
+  }
+}
