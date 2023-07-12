@@ -3,7 +3,6 @@ const lists = document.querySelector('.lists')
 const content = document.querySelector('.paralax_content')
 const big_title = document.querySelector('.big_title')
 const gr_wrapper = document.querySelector('.gr_wrapper')
-const girl = document.querySelector('.girl')
 
 if (body.offsetWidth <= 610){
   content.style = `
@@ -12,9 +11,6 @@ if (body.offsetWidth <= 610){
   gr_wrapper.style = `
     margin-left: ${gr_wrapper.offsetWidth+gr_wrapper.offsetWidth+gr_wrapper.offsetWidth/1.5}px;
     transform: translate3d(0px, -${gr_wrapper.offsetHeight/2}px, 0px);
-  `
-  girl.style = `
-    transform: translate3d(${100}px, 0px, 0px);
   `
 } else if (body.offsetWidth <= 780) {
   content.style = `
