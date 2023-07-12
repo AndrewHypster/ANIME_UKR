@@ -117,7 +117,7 @@ nav a {
   background: #f53c76;
 }
 
-@media (max-width: 980px) {
+@media (max-width: 780px) {
   .paralax {
     background: #000;
   }
